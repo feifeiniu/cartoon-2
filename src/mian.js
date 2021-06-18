@@ -390,6 +390,7 @@ btnPause.onclick =()=>{
     window.clearInterval(id)
 }
 btnPlay.onclick=() =>{
+     window.clearInterval(id)
      id =window.setInterval(myCallback,10)
     myCallback()
 }
